@@ -9,7 +9,7 @@ git commit -m "done"
 
 Push local project and files on Github Repository : git push origin main
 
-<img <src = "https://github.com/anjali14692/rtcamp_assignment/blob/main/Screenshot%202024-02-09%20180629.png" alt="MLBC">
+<img src = "https://github.com/anjali14692/rtcamp_assignment/blob/main/Screenshot%202024-02-09%20180629.png" alt="local">
 
 
 
