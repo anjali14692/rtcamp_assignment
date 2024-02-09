@@ -13,7 +13,7 @@ Push local project and files on Github Repository : git push origin main
 
 |SNo| TOPIC | Documentation | Link |
 |-|-|-|-|
-|01| AUTOMATION TESTING | Google Docs | [Link](https://docs.google.com/document/d/1CHqSXk7N_p8c1dnKGCGDdt2mbnc4Imjm9l03xSQ4fxw/edit?usp=sharing
+|01| AUTOMATION TESTING | Google Docs | [Link](https://docs.google.com/document/d/1CHqSXk7N_p8c1dnKGCGDdt2mbnc4Imjm9l03xSQ4fxw/edit?usp=sharing)
 
 
 
