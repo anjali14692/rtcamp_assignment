@@ -12,9 +12,11 @@ Push local project and files on Github Repository : git push origin main
 <img src = "https://github.com/anjali14692/rtcamp_assignment/blob/main/Screenshot%202024-02-09%20180629.png" alt="local">
 
 Automation Testing On Amazon.com Through Playwright : Scripting Language- javaScript, Tools/platform- Visual Studio Code, Nodejs.
+Project=Chromium
 
 
 Automation Testing On Amazon.com Through Selenium : Programming Language- Java, Tools/Platform- Eclipse Java Enterprise Edition.
+Driver : EdgeDriver
 
 |SNo| TOPIC | Documentation | Link Provided |
 |-|-|-|-|
