@@ -1,0 +1,30 @@
+import { test, expect } from '@playwright/test';
+
+test('amazon website test', async ({ page }) => {
+  await page.goto('https://www.amazon.com/');
+  await page.getByText('Type the characters you see in this image: Try different image').click();
+  await page.locator('form').getByRole('img').click();
+  await page.getByPlaceholder('Type characters').click();
+  await page.getByPlaceholder('Type characters').press('CapsLock');
+  await page.getByPlaceholder('Type characters').fill('FHPTRB');
+  await page.getByRole('button', { name: 'Continue shopping' }).click();
+  await page.getByRole('link', { name: 'Hello, sign in Account & Lists' }).click();
+  await page.getByLabel('Email or mobile phone number').fill('8109782217');
+  await page.getByLabel('Continue').click();
+  await page.getByLabel('Password').fill('Mnbvcxz654@');
+  await page.getByLabel('Sign in', { exact: true }).click();
+  await page.getByRole('link', { name: 'Hello, anjali Account & Lists' }).click();
+  await page.getByPlaceholder('Search Amazon').fill('philips starightening brush');
+  await page.getByPlaceholder('Search Amazon').press('Enter');
+  await page.locator('#search').getByRole('link', { name: 'Philips BHH880 StyleCare' }).click();
+  await page.locator('#mbc-buybutton-addtocart-1').getByLabel('Add to Cart').click();
+  await page.getByLabel('items in cart').click();
+  await page.getByLabel('Proceed to checkout\n                    \n                    \n                \n ').click();
+  await page.goto('https://www.amazon.com/gp/cart/view.html?ref_=nav_cart');
+  await page.getByPlaceholder('Search Amazon').fill('earbuds');
+  await page.getByPlaceholder('Search Amazon').press('Enter');
+  await page.getByRole('heading', { name: 'SAMSUNG Galaxy Buds Pro 2 [' }).getByRole('link').click();
+  await page.getByLabel('Add to List').click();
+  await page.getByRole('link', { name: 'View Your List' }).click();
+  await page.getByRole('link', { name: 'Returns & Orders' }).click();
+});
