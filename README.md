@@ -24,5 +24,5 @@ Driver : EdgeDriver
 |02| AUTOMATION TESTING | Amazon.com | [Google Docs](https://docs.google.com/document/d/1CHqSXk7N_p8c1dnKGCGDdt2mbnc4Imjm9l03xSQ4fxw/edit?usp=sharing)
 |03| AUTOMATION TESTING | Amazon.com(Playwright_automation) | [Github Repository](https://github.com/anjali14692/rtcamp_assignment/blob/main/Playwright_automation/tests/amazon_test.spec.js)
 |04| MANUAL TESTING | qa.rtcamp.net | [Google Sheet](https://docs.google.com/spreadsheets/d/19jEmFHDjahqg8WDb1nyR-2jSa6hoXjwMQMmYqmrRzUE/edit?usp=sharing)
-|05| MANUAL TESTING | qa.rtcamp.net(Portrait and Landscape) | [Google Docs](https://docs.google.com/document/d/1CHqSXk7N_p8c1dnKGCGDdt2mbnc4Imjm9l03xSQ4fxw/edit?usp=sharing)
+|05| MANUAL TESTING | qa.rtcamp.net(Portrait and Landscape) | [Google Docs](https://docs.google.com/document/d/17BIUS2kR_L8fNR5xgu7hq-QxYnRXw1DOm282Ri5iYwY/edit)
 
